@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Hello</h1>
+      <h1>Hello Hi</h1>
       <ul>
         {
           message.map((text, index) => <li key={index}>{text}</li>)
