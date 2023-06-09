@@ -11,6 +11,7 @@ const App = () => {
 
   return (
     <div>
+      <h1> 하이 </h1>
       <ul>
         {
           message.map((text, index) => <li key={index}>{text}</li>)
